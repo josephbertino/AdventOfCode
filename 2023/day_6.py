@@ -2,7 +2,7 @@ import math
 import re
 
 part_1 = False
-file = 'input.txt'
+file = '../input.txt'
 
 if part_1:
     races = [list(map(int, re.findall(r'\d+', line))) for line in open(file).readlines()]

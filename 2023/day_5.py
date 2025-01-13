@@ -1,7 +1,7 @@
 import re
 import math
 
-file = 'input.txt'
+file = '../input.txt'
 part_1 = False
 
 # Parse Input
